@@ -10,13 +10,14 @@ doi: 10.1109/TGRS.2026.3655487
 
 ```bibtex
 @article{zhang2026msedgecast,
-  title={MS-EdgeCast: A Dual-Stage Framework With a Multiscale Convolutional Recurrent Network and Edge-Guided Diffusion for Convective Storm Nowcasting},
-  author={Zhang, Wei and Wang, Lei and Luo, Ming and Pang, Renbo and Song, Xiaojiang and Zhang, Xinyu},
-  journal={IEEE Transactions on Geoscience and Remote Sensing},
-  volume={64},
-  pages={1--13},
+  author={Zhang, Wei and Wang, Lintao and Luo, Muqi and Pang, Renbo and Song, Xiaojiang and Zhang, Xiangguang},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={MS-EdgeCast: A Dual-Stage Framework With a Multiscale Convolutional Recurrent Network and Edge-Guided Diffusion for Convective Storm Nowcasting}, 
   year={2026},
-  doi={10.1109/TGRS.2026.3655487}
+  volume={64},
+  number={},
+  pages={1-13},
+  doi={10.1109/TGRS.2026.3655487}}
 }
 ```
 ## Inference
