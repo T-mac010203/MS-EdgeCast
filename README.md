@@ -4,6 +4,7 @@
 ---
 ## Citation
 If you use this code or find it helpful in your research, please cite:
+
 W. Zhang, L. Wang, M. Luo, R. Pang, X. Song and X. Zhang, "MS-EdgeCast: A Dual-Stage Framework With a Multiscale Convolutional Recurrent Network and Edge-Guided Diffusion for Convective Storm Nowcasting," in IEEE Transactions on Geoscience and Remote Sensing, vol. 64, pp. 1-13, 2026.
 
 doi: 10.1109/TGRS.2026.3655487
@@ -38,7 +39,9 @@ Repository Structure
 
 1.Modify key runtime parameters (such as device, checkpoint paths, etc.) in the config.py file.
 
-2.Prepare the checkpoints by downloading and extracting the pretrained checkpoints into the directory specified by cfg.ckpt_dir. Download Link (https://drive.google.com/file/d/1RL9UrLoDKrBZ-jrJ6K3VagDWN0BV-j_J/view?usp=sharing)
+2.Prepare the checkpoints by downloading and extracting the pretrained checkpoints into the directory specified by cfg.ckpt_dir. 
+Download Link (https://drive.google.com/file/d/1RL9UrLoDKrBZ-jrJ6K3VagDWN0BV-j_J/view?usp=sharing)
+
 3.Run Inference
 ```
 python infer.py
@@ -51,6 +54,7 @@ The inference pipeline is designed for the MRMS (Multi-Radar Multi-Sensor) datas
 
 
 The released inference script supports the following two geographic regions:
+
 Region 1
 Longitude: −79.3 ~ −69.8
 Latitude: 36.25 ~ 45.75
